@@ -1,0 +1,10 @@
+A. Using the BruteForce 2692537 recursive calls are done
+   Using the memoized I got 59 recursive call for the same input.
+The brute force algorithm will need to use some form of dynamic programming because
+it's recomputing to the pervious computed calculation again and again. So it should implement 
+so table to store the result that can do the lookup instead of recomputing.
+
+B. char[] s1 = {'G','A','A','T','T','C','A','G','T','T','A'};
+   char[] s2 = {'G','G','A','T','C','G','A'};
+  With this input I got count 1450 for the brut force algorithm. 
+For the LCS Memoized algorithm with the same input I got count 66 and length of the LCS is 6.
