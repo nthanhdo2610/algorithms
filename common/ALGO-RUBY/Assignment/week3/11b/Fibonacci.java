@@ -6,11 +6,11 @@ public class Fibonacci {
     	
         countRecursiveCall = 0;
         System.out.println("-------------Brute force Version-------------------");
-        System.out.println("Fibonacci Number : "+bruteForceFibo(30));
+        System.out.println("miu.edu.algorithms.Fibonacci Number : "+bruteForceFibo(30));
         System.out.println("No of recursive calls: "+countRecursiveCall);
         countRecursiveCall = 0;
         System.out.println("----------------Memoized Version-----------------");
-        System.out.println("Fibonacci Number :"+ memoizedFibo(30));
+        System.out.println("miu.edu.algorithms.Fibonacci Number :"+ memoizedFibo(30));
         System.out.println("No of recursive calls: "+countRecursiveCall);
     }
     
